@@ -10,6 +10,6 @@ find_package(OpenGL REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(GLEW REQUIRED)
 
-add_executable(hcicg_lab1 src/main.cpp)
+add_executable(hcicg_lab1 main.cpp)
 
 target_link_libraries(hcicg_lab1 PRIVATE OpenGL::GL glfw GLEW::GLEW)
